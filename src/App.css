@@ -1,0 +1,211 @@
+.header {
+  background-color: #2c3e50;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__title {
+  text-align: center;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.nav__link{
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.nav__link:hover {
+  background-color: #50789f;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  color: #333333;
+  flex: 1;
+}
+
+.login__title {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  max-width: 20rem;
+}
+
+.status {
+  margin-top: 1rem;
+  color: red;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  gap: 2rem;
+}
+
+.login__username {
+  margin-left: 1rem;
+}
+
+.error-message {
+  color: red;
+  font-size: small;
+}
+
+.form__button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+  background-color: #2c3e50;
+  color: #ffffff;
+  border: none;
+}
+
+.form__button:hover {
+  background-color: #50789f;
+}
+
+.form__input {
+  margin: 0 1rem;
+  width: 16.5rem;
+}
+
+.logout__head {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  flex: 1;
+}
+
+.game__main {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ddd;
+  flex: 1;
+}
+
+.game__words-container {
+  padding: 1rem;
+  flex: 70%;
+}
+
+.game__guessed-words {
+  border-left: 1px solid #ddd;
+  padding: 1rem;
+  flex: 30%;
+}
+
+.game__header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.guessed__words {
+  overflow-y: auto;
+}
+
+.game__status {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  align-items: center;
+}
+
+.game__action {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  justify-content: center;
+}
+
+.game__words {
+  line-height: 1.7rem;
+}
+
+.guess__form {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.ranking__title {
+  margin: 2rem 0rem;
+}
+
+.ranking__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  border: 1px solid #ddd;
+  max-height: 80%;
+  overflow-y: auto;
+  margin-top: 1rem;
+  min-width: 10rem;
+}
+
+.admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  color: #333333;
+  flex: 1;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.words__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  gap: 2rem;
+  min-width: 30rem;
+}
+
+.words {
+  padding: 2rem;
+  line-height: 2rem;
+}
+
+.words__label {
+  display: flex;
+  gap: 1rem;
+}
+
+.words__error {
+  color: red;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  background-color: #2c3e50;
+  color: #ffffff;
+}
